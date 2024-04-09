@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>162498-PLACA.jpg</filename>
+	<path>/Users/user/Desktop/extracciontextoplaca/cursoUdemyNumberplateRecognition/Project_Files/1_Labeling/images/162498-PLACA.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>375</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>number_plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>22</xmin>
+			<ymin>103</ymin>
+			<xmax>480</xmax>
+			<ymax>318</ymax>
+		</bndbox>
+	</object>
+</annotation>
