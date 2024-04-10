@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_item_home"
+        android:enabled="true"
+        android:title="@string/home"
+        android:icon="@drawable/icon_home"/>
+
+    <item
+        android:id="@+id/menu_item_wrecks"
+        android:enabled="true"
+        android:title="@string/wrecks"
+        android:icon="@drawable/icon_dangerous"/>
+
+    <item
+        android:id="@+id/menu_item_alcohol"
+        android:enabled="true"
+        android:title="@string/breathalyzer"
+        android:icon="@drawable/icon_liquor"/>
+
+    <item
+        android:id="@+id/menu_item_reports"
+        android:enabled="true"
+        android:title="@string/reports"
+        android:icon="@drawable/icon_security"/>
+
+    <item
+        android:id="@+id/menu_item_config"
+        android:enabled="true"
+        android:title="@string/settings"
+        android:icon="@drawable/icon_settings"/>
+
+</menu>

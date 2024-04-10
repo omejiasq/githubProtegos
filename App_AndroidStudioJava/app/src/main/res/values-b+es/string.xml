@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">SafeRoute</string>
+
+    <string name="accept">Aceptar</string>
+    <string name="auto_scroll">Auto Scroll</string>
+
+
+    <string name="cancel">Cancelar</string>
+    <string name="country">País</string>
+
+    <string name="test_title">Título de prueba</string>
+    <string name="test_subtitle">Subtítulo de prueba</string>
+    <string name="test_wreck">Colisión</string>
+
+    <string name="fragment_over_speed">Acá se mostrarán los excesos de velocidad</string>
+    <string name="fragment_breathalyzer">Acá se mostrará los niveles de alcoholemia</string>
+    <string name="fragment_wrecks">Acá se mostrarán los accidentes detectados</string>
+    <string name="fragment_settings">Acá se mostrarán las configuraciones</string>
+
+
+    <string name="battery_headset">Batería diadema</string>
+
+    <string name="breathalyzer">Alcohol</string>
+    <string name="breathalyzer_unit">mg/100ml</string>
+    <string name="battery">Batería</string>
+
+
+    <string name="connecting">Conectando</string>
+    <string name="cancelling">Cancelando</string>
+    <string name="create_account">Crear cuenta</string>
+    <string name="connection">Conexión</string>
+    <string name="core">Nucleo</string>
+    <string name="collision">Colisión</string>
+    <string name="clear_log">Limpiar Log</string>
+
+
+    <string name="disconnect">Desconectar</string>
+    <string name="discarded">Descartada</string>
+
+
+    <string name="email">Correo electrónico</string>
+    <string name="email_2">Correo</string>
+    <string name="email_confirm">Confirme correo electrónico</string>
+
+    <string name="fall">Caída</string>
+
+    <string name="good_bye">¡Hasta luego!</string>
+
+    <string name="level">Grado</string>
+
+    <string name="home">Principal</string>
+    <string name="headset">Diadema</string>
+    <string name="hidden_name">Nombre oculto</string>
+    <string name="hidden_address">Dirección oculta</string>
+
+    <string name="log_in">Inicio sesión</string>
+    <string name="login_in">Iniciando Sesión</string>
+    <string name="loading">Cargando</string>
+    <string name="logout">Cerrar Sesión</string>
+
+    <string name="measure">Medida</string>
+
+    <string name="reports">Reportes</string>
+
+    <string name="temperature">Temperatura</string>
+
+    <string name="over_speed">Velocidad</string>
+    <string name="on">Encendido</string>
+    <string name="off">Apagado</string>
+
+
+
+    <string name="processing">Procesando</string>
+    <string name="password">Contraseña</string>
+    <string name="password_confirm">Confirme contraseña</string>
+
+    <string name="recover_password">Recuperar contraseña</string>
+
+    <string name="saving">Guardando</string>
+    <string name="settings">Config</string>
+    <string name="search">Buscar</string>
+    <string name="speed_unit">KM/H</string>
+    <string name="search_ble_devices">Dispositívos bluetooth encontrados</string>
+    <string name="status">Estado</string>
+    <string name="search_bluetooth">Buscar Bluetooth</string>
+    <string name="save_log">Guardar Log</string>
+
+    <string name="warming_up">Calentando…</string>
+
+
+    <string name="user">Usuario</string>
+    <string name="unavailable">N/D</string>
+
+
+    <string name="wrecks">Accidentes</string>
+    <string name="welcome">¡Bienvenido!</string>
+
+
+    <string name="description_logout">Acá puedes cerrar tu sesión</string>
+    <string name="description_connection">Busca y conecta a tu dispositivo</string>
+
+    <string name="message_function_disabled">Esta función se encuentra desactivada</string>
+    <string name="message_logout">¿Realmente quieres cerrar tu sesión?</string>
+    <string name="message_bluetooth_disconnected">Primero, conectate con tu dispositivo</string>
+    <string name="message_press_to_search_bluetooth">Presione el botón para buscar</string>
+    <string name="message_app_notification_location">SafeRoute esta Localizando…</string>
+    <string name="message_app_notification_bt_connected">SafeRoute esta conectado…</string>
+    <string name="message_app_notification_bt_reconnecting">SafeRoute esta reconectando…</string>
+    <string name="message_app_notification_bt_disconnected">SafeRoute esta desconectado</string>
+
+
+    <string name="message_app_notification_location_desc">Ubicación</string>
+    <string name="message_app_notification_bt_desc">Dispositivo</string>
+
+    <string name="error_starting_connection_ble">Error de conexión con dispositivo seleccionado</string>
+    <string name="error_max_length">El texto es muy largo</string>
+    <string name="error_min_length">El texto es muy corto</string>
+    <string name="error_null">Entrada nula</string>
+    <string name="error_empty">Entrada vacía</string>}
+    <string name="error_general_try_again">Ha ocurrido un error, por favor intente nuevamente</string>
+
+
+    <string name="placeholder_required_hint">Requerido</string>
+
+    <string name="content_description_button_search_ble">Botón que permite encontrar dispositivos bluetooth cercanos</string>
+    <string name="content_desc_logout_button">Botón para cerrar la sesión</string>
+    <string name="content_desc_back_button">Botón para retroceder al menú anterior</string>
+
+
+</resources>

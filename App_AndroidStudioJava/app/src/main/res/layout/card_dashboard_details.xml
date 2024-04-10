@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CardView.Collapsed"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="12dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvItemTitle"
+            style="@style/Text.Big"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/test_title" />
+
+        <ImageView
+            android:id="@+id/ivIconView"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/icon_battery_0"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/tvItemTitle"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            style="@style/Text.Medium"
+            android:id="@+id/tvItemSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/ivIconView"
+            android:layout_alignBottom="@id/ivIconView"
+            android:layout_toEndOf="@id/ivIconView"
+            android:text="@string/test_subtitle"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"/>
+
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.Material3.Button.IconButton.Outlined"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignBottom="@id/tvItemSubtitle"
+            android:text="@string/disconnect"
+            app:icon="@drawable/icon_bluetooth_disconnect"
+            app:iconGravity="textTop"
+            app:iconPadding="5dp"
+            tools:ignore="RelativeOverlap" />
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

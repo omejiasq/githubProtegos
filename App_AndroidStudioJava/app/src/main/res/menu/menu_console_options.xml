@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_item_save_log"
+        android:enabled="true"
+        android:title="@string/save_log"
+        android:icon="@drawable/icon_file"/>
+
+    <item
+        android:id="@+id/menu_item_clear_log"
+        android:enabled="true"
+        android:title="@string/clear_log"
+        android:icon="@drawable/icon_delete"/>
+
+    <item
+        android:id="@+id/menu_item_auto_scroll"
+        android:enabled="true"
+        android:title="@string/auto_scroll"
+        android:icon="@drawable/icon_auto_scroll"
+        android:checkable="true"
+        android:checked="true"/>
+
+</menu>

@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">SafeRoute</string>
+
+    <string name="accept">Accept</string>
+    <string name="auto_scroll">Auto Scroll</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="country">Country</string>
+
+    <string name="test_title">Title Test</string>
+    <string name="test_subtitle">Subtitle Test</string>
+    <string name="test_wreck">Collision</string>
+    <string name="test_speed" translatable="false">100 \nKm/h</string>
+    <string name="test_date" translatable="false">10/07/23</string>
+    <string name="test_breathalyzer" translatable="false">128</string>
+    <string name="test_battery_percentage" translatable="false">100%</string>
+    <string name="test_measure" translatable="false">2500 \nmg/100ml</string>
+    <string name="test_zero" translatable="false">0</string>
+    <string name="test_temperature" translatable="false">100 °C</string>
+
+
+    <string name="fragment_over_speed">Here we will watch over speed registries</string>
+    <string name="fragment_breathalyzer">Here will be shown breathalyzer registries</string>
+    <string name="fragment_wrecks">Here will be shown wrecks registries</string>
+    <string name="fragment_settings">Here will be shown general account settings</string>
+
+    <string name="battery_headset">Headset Battery</string>
+
+    <string name="breathalyzer">Alcohol</string>
+    <string name="breathalyzer_unit">mg/100ml</string>
+    <string name="battery">Battery</string>
+
+    <string name="connecting">Connecting</string>
+    <string name="cancelling">Cancelling</string>
+    <string name="create_account">Create account</string>
+    <string name="connection">Connection</string>
+    <string name="core">Core</string>
+    <string name="collision">Collision</string>
+    <string name="clear_log">Clear Log</string>
+
+
+    <string name="disconnect">Disconnect</string>
+    <string name="discarded">Discarded</string>
+
+    <string name="email">Email</string>
+    <string name="email_2">/@</string>
+    <string name="email_confirm">Email confirm</string>
+
+    <string name="fall">Fall</string>
+
+    <string name="good_bye">Good bye!</string>
+
+    <string name="level">Level</string>
+
+    <string name="home">Main</string>
+    <string name="headset">Headset</string>
+    <string name="hidden_name">Hidden name</string>
+    <string name="hidden_address">Hidden address</string>
+
+    <string name="log_in">Log In</string>
+    <string name="login_in">Login In</string>
+    <string name="loading">Loading</string>
+    <string name="logout">Logout</string>
+
+    <string name="measure">Measure</string>
+
+    <string name="reports">Reports</string>
+
+    <string name="temperature">Temperature</string>
+
+    <string name="over_speed">Over speed</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+
+    <string name="recover_password">Recover password</string>
+
+    <string name="processing">Processing</string>
+    <string name="password">Password</string>
+    <string name="password_confirm">Password confirm</string>
+    <string name="percentage" translatable="false">%</string>
+
+    <string name="saving">Saving</string>
+    <string name="settings">Settings</string>
+    <string name="search">Search</string>
+    <string name="speed_unit">KM/H</string>
+    <string name="search_ble_devices">Bluetooth devices found</string>
+    <string name="status">Status</string>
+    <string name="search_bluetooth">Bluetooth search</string>
+    <string name="sensor" translatable="false">Sensor</string>
+    <string name="save_log">Save Log</string>
+
+    <string name="warming_up">Warming up…</string>
+
+
+    <string name="user">User</string>
+    <string name="unavailable">N/A</string>
+
+    <string name="wrecks">Wrecks</string>
+    <string name="welcome">Welcome</string>
+
+    <string name="description_logout">Here you can logout</string>
+    <string name="description_connection">Search and find Bluetooth nearby</string>
+
+    <string name="message_function_disabled">This function is disabled</string>
+    <string name="message_logout">Do you really want to logout?</string>
+    <string name="message_bluetooth_disconnected">First, connect with your device</string>
+    <string name="message_press_to_search_bluetooth">Press button to search</string>
+
+    <string name="message_app_notification_location">SafeRoute is Locating…</string>
+    <string name="message_app_notification_bt_connected">SafeRoute device is connected…</string>
+    <string name="message_app_notification_bt_reconnecting">SafeRoute device reconnecting…</string>
+    <string name="message_app_notification_bt_disconnected">SafeRout device is disconnected</string>
+
+    <string name="message_app_notification_location_desc">Location</string>
+    <string name="message_app_notification_bt_desc">Device</string>
+
+
+    <string name="error_starting_connection_ble">Error connecting with device selected</string>
+    <string name="error_max_length">Text is too long</string>
+    <string name="error_min_length">Text is too short</string>
+    <string name="error_null">Null input</string>
+    <string name="error_empty">Empty input</string>
+    <string name="error_general_try_again">An error has occured, please try again</string>
+
+
+    <string name="placeholder_required_hint">Required</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+    <string name="content_description_button_search_ble">Button to find BLE devices nearby</string>
+    <string name="content_desc_logout_button">Logout button</string>
+    <string name="content_desc_back_button">Button to go back to previous menu</string>
+
+
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- for Bluetooth Classic -->
+    <!-- <uses-feature android:name="android.hardware.bluetooth"/> -->
+    <!-- for development on EMULATOR please set required to false -->
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+<!--    <uses-feature-->
+<!--        android:name="android.hardware.bluetooth"-->
+<!--        android:required="true"/>-->
+    <!-- region Bluetooth Permissions for older devices -->
+    <!--
+    NOTE: Following the android documentation stands that, for API 30+ is not required BLUETOOTH
+       and BLUETOOTH_ADMIN permissions, regardless of this, removing the attribute "maxSdk" it allows
+       to connect with BT Classic Devices.
+    -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" /> <!-- endregion -->
+    <!-- region Bluetooth Permissions for New devices -->
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" /> <!-- endregion -->
+    <!-- region Location Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+    <!-- endregion -->
+    <!-- region General Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DIMA"
+        tools:targetApi="31">
+        <activity
+            android:name="co.itfusion.ui.bluetooth.BluetoothCom"
+            android:exported="false" />
+        <activity
+            android:name="co.itfusion.ui.bluetooth.BluetoothSearchActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="co.itfusion.ui.bluetooth.BluetoothDiscoveryActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="co.itfusion.ui.login.manage.CreateAccountActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="co.itfusion.ui.login.manage.RecoverAccountActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="co.itfusion.ui.login.LoginActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAQQU7CKrH74orXVvI2GjuiFidE6J4JNjI" />
+
+        <activity
+            android:name="co.itfusion.ui.home.HomeActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="co.itfusion.ui.login.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="co.itfusion.services.SerialServiceDiadem"
+            android:enabled="true" />
+        <service
+            android:name="co.itfusion.services.ServiceMainDiadem"
+            android:enabled="true" />
+    </application>
+
+</manifest>

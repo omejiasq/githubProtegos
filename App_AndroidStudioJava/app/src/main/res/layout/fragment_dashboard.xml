@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/banner"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/layout_brand_banner"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            layout="@layout/layout_dashboard_4"
+            android:visibility="visible"
+            android:id="@+id/data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            style="@style/Text.Title.Bold"
+            android:id="@+id/tvStatus"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/message_bluetooth_disconnected"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+    </FrameLayout>
+
+    <com.google.android.material.textview.MaterialTextView
+        style="@style/Text.Title.Bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvSpeedTest"
+        android:textAlignment="center"
+        android:text="@string/test_subtitle"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Button.Outlined"
+        android:visibility="invisible"
+        android:id="@+id/btnOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/disconnect"
+        android:textSize="12sp"
+        android:contentDescription="@string/content_desc_logout_button"
+        app:icon="@drawable/icon_bluetooth_disconnect"
+        app:iconGravity="textStart"
+        app:iconPadding="12dp"
+        tools:ignore="RelativeOverlap,SmallSp" />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/Card.Main"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_margin="10dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <FrameLayout
+                android:id="@+id/frameIcon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_alignParentStart="true">
+
+                <View
+                    android:id="@+id/vBackground"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/circle_1"
+                    />
+
+                <View
+                    android:id="@+id/vIcon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/icon_temperature"
+                    android:backgroundTint="@color/white"
+                    />
+
+            </FrameLayout>
+
+
+            <com.google.android.material.textview.MaterialTextView
+                style="@style/Text.Title.Bold"
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/frameIcon"
+                android:layout_alignStart="@id/frameIcon"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="37dp"
+                android:text="@string/temperature" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/tvTitle"
+                android:layout_centerHorizontal="true"
+                android:gravity="bottom"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="8"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/Text.Medium.Bold"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:text="@string/core" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/Text.Medium"
+                        android:id="@+id/tvValue1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:text="@string/test_temperature" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="8"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/Text.Medium.Bold"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:text="@string/sensor" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/Text.Medium"
+                        android:id="@+id/tvValue2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:text="@string/test_temperature" />
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

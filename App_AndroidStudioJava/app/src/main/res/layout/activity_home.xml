@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.itfusion.ui.home.HomeActivity">
+
+    <FrameLayout
+        android:id="@+id/flMainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bnvMainActivity"
+        android:layout_alignParentTop="true"/>
+
+<!--    <include-->
+<!--        android:id="@+id/status"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_above="@id/bnvMainActivity"-->
+<!--        layout="@layout/layout_info_header"/>-->
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bnvMainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/menu_bottom_nav_bar" />
+
+    <include
+        android:id="@+id/block"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/layout_block_ui"/>
+
+</RelativeLayout>
