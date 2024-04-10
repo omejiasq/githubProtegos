@@ -1,0 +1,22 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F26K22 -DL -O11111114 -fo16 -N"C:\development\mikroc\dima\1_PreBeta\SafeRoute_PreBeta.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\development\mikroc\dima\1_PreBeta\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" "SafeRoute_PreBeta.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_Conversions.mcl" "__Lib_Sprintf.mcl" "__Lib_Sprinti.mcl" "__Lib_OneWire.mcl" "__Lib_ADC_K22_B.mcl" "__Lib_I2C_c34b12.mcl" "__Lib_UART_c67b67.mcl"	 
+hint: 0	1139	Available RAM: 3875 [bytes], Available ROM: 65536 [bytes]	 
+diagnostics: 0	122	Compilation Started	SafeRoute_PreBeta.c
+warning: 266	1506	Implicit conversion of pointer to int	SafeRoute_PreBeta.c
+hint: 0	1004	interrupt handler (int_EXT at 0x0008)	SafeRoute_PreBeta.c
+hint: 0	1004	interrupt handler (int_EXT2 at 0x0018)	SafeRoute_PreBeta.c
+diagnostics: 951	123	Compiled Successfully	SafeRoute_PreBeta.c
+hint: 338	1164	Variable 'reference' has been eliminated by optimizer	SafeRoute_PreBeta.c
+hint: 351	1164	Variable 'porcBattery' has been eliminated by optimizer	SafeRoute_PreBeta.c
+hint: 392	1164	Variable 'rawAlcohol' has been eliminated by optimizer	SafeRoute_PreBeta.c
+hint: 548	1164	Variable 'magnitude' has been eliminated by optimizer	SafeRoute_PreBeta.c
+hint: 546	1164	Variable 'v' has been eliminated by optimizer	SafeRoute_PreBeta.c
+hint: 561	1164	Variable 'magnitude' has been eliminated by optimizer	SafeRoute_PreBeta.c
+hint: 574	1164	Variable 'newMagnitude' has been eliminated by optimizer	SafeRoute_PreBeta.c
+hint: 568	1164	Variable 'v' has been eliminated by optimizer	SafeRoute_PreBeta.c
+diagnostics: 0	127	All files Compiled in 406 ms	 
+hint: 0	1144	Used RAM (bytes): 686 (18%)  Free RAM (bytes): 3189 (82%)	Used RAM (bytes): 686 (18%)  Free RAM (bytes): 3189 (82%)
+hint: 0	1144	Used ROM (bytes): 28515 (44%)  Free ROM (bytes): 37021 (56%)	Used ROM (bytes): 28515 (44%)  Free ROM (bytes): 37021 (56%)
+diagnostics: 0	125	Project Linked Successfully	SafeRoute_PreBeta.mcppi
+diagnostics: 0	128	Linked in 390 ms	 
+diagnostics: 0	129	Project 'SafeRoute_PreBeta.mcppi' completed: 953 ms	 
+diagnostics: 0	103	Finished successfully: 10 abr. 2024, 16:31:52	SafeRoute_PreBeta.mcppi
